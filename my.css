@@ -23,3 +23,10 @@ font: 19px/1.60 Roboto, Roboto, sans-serif;
 .curse {
 background: #000;
 }
+.nav-container {
+	    margin: 0 auto;
+    max-width: 873px;
+    padding: 0 10px;
+    width: 100%;
+	
+}
