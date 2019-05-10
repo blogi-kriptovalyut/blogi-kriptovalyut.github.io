@@ -4,7 +4,7 @@ src: url("../fonts/Escrow-Black.otf") format("opentype");
 }
 body {
 font: 19px/1.60 Roboto, Roboto, sans-serif;
-background:##fafafa;
+background:#fafafa;
 color: #000;
 }
 
@@ -43,3 +43,4 @@ background: #000;
 .entry {
     background: #fdfdfd;
 }
+#eeeeee
