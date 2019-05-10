@@ -3,15 +3,10 @@ font-family: "Escrow";
 src: url("../fonts/Escrow-Black.otf") format("opentype");
 }
 body {
-font-family: 'Roboto', sans-serif;
-font: 18px/1.57 Roboto, Roboto, sans-serif;
+font: 19px/1.60 Roboto, Roboto, sans-serif;
 }
 
 
-body {
-
-
-}
 .site-name {
     font-family: 'Playfair Display', serif;
     font-size: 51px;
