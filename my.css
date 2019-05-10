@@ -3,7 +3,7 @@ font-family: "Escrow";
 src: url("../fonts/Escrow-Black.otf") format("opentype");
 }
 body {
-    font-family: "Escrow";
+font-family: 'Roboto', sans-serif;
 }
 
 
