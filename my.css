@@ -4,6 +4,7 @@ src: url("../fonts/Escrow-Black.otf") format("opentype");
 }
 body {
 font-family: 'Roboto', sans-serif;
+font: 18px/1.57 Roboto, Roboto, sans-serif;
 }
 
 
