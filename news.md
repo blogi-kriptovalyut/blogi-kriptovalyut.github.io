@@ -1,6 +1,6 @@
 ---
 layout: news
-title: About
+title: Криптовалюта новости и  прогнозы. [Самое важное] - 2019
 permalink: /news/
 ---
 
