@@ -1,6 +1,6 @@
 ---
 layout: post
-title: чувауа
+title: U.S. Slaps Higher Tariffs on Chinese Imports as Trade Talks Resume
 categories: News
 
 ---
