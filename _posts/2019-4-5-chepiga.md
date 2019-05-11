@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ханыга, чепига
-categories: News
+categories: news
 ---
 
 тест
