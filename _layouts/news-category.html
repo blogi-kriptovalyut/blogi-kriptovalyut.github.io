@@ -51,6 +51,9 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
+	          {% if post.tags %}
+          &nbsp;&nbsp;<span class="post-meta">{{ post.tags | join: ', ' }}</span>
+        {% endif %}
     </div>
 
 <div class="post-categories">
