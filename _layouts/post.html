@@ -11,6 +11,7 @@ layout: default
 
   <div class="date">
     Дата {{ page.date | date: "%B %e, %Y" }}
+	{% include date.html date=page.date %}
   </div>
 
   {% include disqus.html %}
