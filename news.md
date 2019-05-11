@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-category
 title: Новости Блокчейна и Криптовалют - самые Важные (сегодня)
 permalink: /news/
 ---
