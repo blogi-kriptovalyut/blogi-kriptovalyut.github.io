@@ -161,10 +161,11 @@ img {
 }
 
 .date {
-  font-style: italic;
-  color: #666;
-}
+    font-style: italic;
+    color: #666;
+    font-size: 13px;
 
+}
 ::-moz-selection {
   color: #000;
   background: #eee;
