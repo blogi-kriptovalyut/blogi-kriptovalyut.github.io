@@ -4,7 +4,7 @@ layout: home
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-
+<!-- вывод даты -->
   <div class="date">
 	<i class="far fa-clock"></i> {% include date.html date=page.date %}
   </div>
@@ -13,6 +13,7 @@ layout: home
     {{ content }}
   </div>
 
+<!-- вывод тэгов -->
 <small>
     {% for tag in page.tags %}
     <a href="/tags/{{ tag }}/">{{ tag }}</a>
