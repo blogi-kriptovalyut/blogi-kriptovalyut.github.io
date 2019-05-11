@@ -4,7 +4,7 @@ title: U.S. Slaps Higher Tariffs on Chinese Imports as Trade Talks Resume
 categories: News
 
 ---
-President says U.S. would impose fresh levies on $325 billion in Chinese goods as negotiators move to salvage potential deal
+*President says U.S. would impose fresh levies on $325 billion in Chinese goods as negotiators move to salvage potential deal*
 ![My helpful screenshot](/assets/15515254754712.jpg)
 Хотя фраза и бессмысленна, она имеет давнюю историю. Фраза использовалась печатниками многие столетия для демонстрации наиболее важных особенностей своих шрифтов. Она использовалась потому, что символы составляют сложные по межсимвольным промежуткам и по комбинациям символов пары, наилучшим образом демонстрирующие преимущества данного начертания.
 
