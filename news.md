@@ -20,3 +20,7 @@ permalink: /news/
     </article>
   {% endfor %}
 </div>
+
+        {% if post.tags %}
+          &nbsp;&nbsp;<span class="post-meta">{{ post.tags | join: ', ' }}</span>
+        {% endif %}
