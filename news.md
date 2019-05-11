@@ -5,6 +5,9 @@ permalink: /news/
 ---
 
 
+{% for post in site.categories.News %}
+
+{% endfor %}
 
 <div class="posts">
   {% for post in site.posts %}
