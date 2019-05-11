@@ -32,6 +32,7 @@ background: #000;
     max-width: 967px;
     padding: 0 10px;
     width: 100%;
+    border-bottom: 1px solid #ddd;	
 	
 }
 .container {
@@ -50,7 +51,6 @@ margin: 0 auto;
 
 .masthead {
     padding: 20px 0;
-    border-bottom: 1px solid #eee;
 }
 
 
