@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news-post
 title: U.S. Slaps Higher Tariffs on Chinese Imports as Trade Talks Resume
 categories: News
 
