@@ -64,7 +64,9 @@
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
-
+ {% if post.tags %}
+          &nbsp;&nbsp;<span class="post-meta">{{ post.tags | join: ', ' }}</span>
+        {% endif %}
 
     <div class="wrapper-footer">
 		<div class="footer-sec1">
