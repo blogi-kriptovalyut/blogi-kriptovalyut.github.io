@@ -39,11 +39,7 @@ margin: 0 auto;
     max-width: 560px;
     width: 100%;
     width: 560px;
-    background: #fdfdfd;
-    padding: 20px;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
-    border: 1px solid #cdcdcd;
-    border-radius: 10px;
+
 }
 .wrapper-footer {
     margin-top: 50px;
@@ -56,3 +52,13 @@ margin: 0 auto;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
 }
+
+
+.posts {
+    background: #fdfdfd;
+    padding: 20px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+}	
+	
