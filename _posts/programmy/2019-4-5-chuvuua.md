@@ -1,7 +1,7 @@
 ---
 layout: programmy-post-item
 title: U.S. Slaps Higher Tariffs on Chinese Imports as Trade Talks Resume лол
-categories: programmy
+categories: Programmy
 tags: [крипта, binance]
 
 ---

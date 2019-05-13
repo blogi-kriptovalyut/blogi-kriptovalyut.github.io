@@ -7,7 +7,7 @@ permalink: /programmy/
 
 
 <div class="posts">
-{% for post in site.categories.programmy %}
+{% for post in site.categories.Programmy %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
