@@ -316,7 +316,7 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-
+.pre-foot {  background-color: red;}
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
