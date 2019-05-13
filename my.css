@@ -330,7 +330,8 @@ width: 900px;
     width: 100%;
     width: 960px;	
 }
-.post-foot {  background-color: #f4f4f4;}
+.post-foot {     background-color: #f4f4f4;
+    padding: 20px;}
 
 .highlight {
   background-color: #efefef;
