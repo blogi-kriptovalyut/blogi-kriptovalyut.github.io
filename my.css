@@ -121,6 +121,7 @@ a {
 }
 a:hover, a:active {
   color: #4183C4;
+  text-decoration: none;
 }
 
 ul, ol {
