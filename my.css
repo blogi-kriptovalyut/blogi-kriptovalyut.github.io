@@ -323,7 +323,7 @@ footer {
     width: 100%;
     width: 960px;	
 }
-
+.post-foot {  background-color: #f4f4f4;}
 
 .highlight {
   background-color: #efefef;
