@@ -1,7 +1,7 @@
 ---
-layout: mining-post-item
+layout: hajpy-post-item
 title: U.S. Slaps Higher Tariffs on Chinese Imports as Trade Talks Resume лол
-categories: Mining
+categories: Hajpy
 tags: [крипта, binance]
 
 ---
