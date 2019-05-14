@@ -1,5 +1,5 @@
 ---
-layout: novye-kriptovalyuty
+layout: novye-kriptovalyuty-category
 title: Программы Блокчейна и Криптовалют - самые Важные (сегодня)
 permalink: /novye-kriptovalyuty/
 ---
