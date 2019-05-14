@@ -9,9 +9,12 @@ This will be the title -->
     {% for post in site.tags[page.tag] %}
 	<div class="views-row">
 	 <a href="{{ post.url }}">{{ post.title }}</a>
+	  
+<div>	  
 	  {{ post.content | strip_html | truncatewords:25}}
 	</em></strong>  <!-- This is what does the task-->
-	<br>
+</div>	
+
 <div class="nev">{% include date.html date=post.date %}</div>		
 	</div>
     {% endfor %}
