@@ -23,6 +23,7 @@
 <link rel="stylesheet" href="/css/global.styles.css">
 <link rel="stylesheet" href="/css/at.layout.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/my.css" />
+
   </head>
 
   <body>
@@ -46,10 +47,10 @@
             <a href="{{ site.baseurl }}/news">Новости</a>
             <a href="{{ site.baseurl }}/mining">Майнинг</a>
             <a href="{{ site.baseurl }}/programmy">Программы</a>
-            <a href="{{ site.baseurl }}/mining">Новые Криптовалюты</a>
-            <a href="{{ site.baseurl }}/mining">Хайпы</a>
-            <a href="{{ site.baseurl }}/mining">Новичку</a>
-			<a href="{{ site.baseurl }}/mining">Заработать</a>	
+            <a href="{{ site.baseurl }}/novye-kriptovalyuty">Новые Криптовалюты</a>
+            <a href="{{ site.baseurl }}/hajpy">Хайпы</a>
+            <a href="{{ site.baseurl }}/novichku">Новичку</a>
+			<a href="{{ site.baseurl }}/zarabotat">Заработать</a>	
           </nav>
         </header>
       </div>
@@ -60,13 +61,29 @@
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
- <p>{{ site.copyright | escape }}</p>
-        </footer>
-      </div>
-    </div>
+        <footer class="footer">	
+	<div class="pre-foot foo-cont">
 
+	Блоги Криптовалют
+
+	</div>	
+
+<div class="post-foot ">	
+<div class="foo-cont">	  
+
+
+	<span>Все права принадлежат авторам. Копирование без указания источника запрещено. <br>(ГК РФ Статья 1259. Объекты авторских прав) © 2019
+	</span>
+	
+        </footer>
+
+</div>
+</div>
+      <div class="foot-container">
+    </div>
+    </div>
+	{% include metrica.html %}
     {% include analytics.html %}
+
   </body>
 </html>
