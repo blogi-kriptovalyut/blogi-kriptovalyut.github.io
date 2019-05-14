@@ -10,5 +10,9 @@ This will be the title -->
 <div class="views-row">
 <span class="nev">{% include date.html date=post.date %}</span>: <a href="{{ post.url }}">{{ post.title }}</a>
 </div>
+  {{ post.content | strip_html | truncatewords:75}}
+</em></strong>  <!-- This is what does the task-->
+<br>
+            <a href="{{ post.url }}">Read more...</a><br><br>
     {% endfor %}
 </div>
