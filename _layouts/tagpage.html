@@ -12,7 +12,7 @@ This will be the title -->
 	  {{ post.content | strip_html | truncatewords:25}}
 	</em></strong>  <!-- This is what does the task-->
 	<br>
-<span class="nev">{% include date.html date=post.date %}</span>		
+<div class="nev">{% include date.html date=post.date %}</div>		
 	</div>
     {% endfor %}
 </div>
