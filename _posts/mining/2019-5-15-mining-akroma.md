@@ -88,15 +88,25 @@ Akroma основана на алгоритме Dagger и может испол�
 
 ## Шаг 3. Вписать свой кошелек
 
- В файле Akroma-minerpool.bat вам необходимо указать свой кошелек и пул, с которым вы будете получать монеты. Пример строки для настройки двойного майнера Claymore указан в середине главной страницы пула.
-EthDcrMiner64.exe -уровень пула + tcp: //akroma.upool.in: 6002 -wal 0x04C4A80C2ACb87EF942002C497DeDB6480Bc4847 -epsw x -allpools 1 -работник FarmD1
+ В файле Akroma-minerpool.bat вам необходимо указать свой кошелек и пул, на которым вы будете получать монеты. Пример строки для настройки Claymore's Dual Miner указан в середине главной страницы пула.
+ 
+EthDcrMiner64.exe -epool eu.akroma.eu:8001 -ewal 0xba7e38d976a03d844ad77a01e0988269267a3237 -eworker Claymore -epsw x -dbg -1 -retrydelay 1 -ftime 55 -tt 79 -ttli 77 -tstop 89 -tstart 85 -fanmin 30 -r 0 -erate 1 -allcoins 1 -allcoins 1
+pause
+
 Так что я просто покажу свои настройки в файле Akroma-minerpool.bat
 setx GPU_FORCE_64BIT_PTR 0
 setx GPU_MAX_HEAP_SIZE 100
 setx GPU_USE_SYNC_OBJECTS 1
 setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100
-EthDcrMiner64.exe -уровень пула + tcp: //akroma.upool.in: 6002 -wal 0x04C4A80C2ACb87EF942002C497DeDB6480Bc4847 -epsw x -allpools 1 -работник FarmD1
+EthDcrMiner64.exe -epool eu.akroma.eu:8001 -ewal 0xba7e38d976a03d844ad77a01e0988269267a3237 -eworker Claymore -epsw x -dbg -1 -retrydelay 1 -ftime 55 -tt 79 -ttli 77 -tstop 89 -tstart 85 -fanmin 30 -r 0 -erate 1 -allcoins 1 -allcoins 1
+pause
+
 После внесения изменений в настройках сохраните файл и запустите его. Через несколько секунд вы должны увидеть эту картинку.
+
+<a href="/images/mining/coins/akroma/akroma-claymore-miner.jpeg" class="gray lightbox-image current">
+![майнинг akroma](/images/mining/coins/akroma/akroma-claymore-miner.jpeg)
+</a>
+
 Теперь через некоторое время на вашем кошельке появятся монеты. Кроме того, вы всегда можете контролировать процесс добычи монет на странице статистики пула.
 Приятного вам майнинга.
