@@ -7,9 +7,9 @@ tags: [крипта]
 ---
 *Акрома - это новая криптовалюта, основанная на эфириуме (алгоритм Даггера Хасимото).*
 
-<a href="/images/mining/coins/akroma/akroma.jpeg" class="gray lightbox-image current">
+
 ![майнинг akroma](/images/mining/coins/akroma/akroma.jpeg)
-</a>
+
 
 ## Немного о проекте acroma.
 Акрома - это новая криптовалюта, основанная на эфириуме (алгоритм Даггера Хасимото).
