@@ -5,7 +5,7 @@ categories: Mining
 tags: [крипта, binance]
 
 ---
-*President says U.S. would impose fresh levies on $325 billion in Chinese goods as negotiators move to salvage potential deal*
+*В этой статье объясняются основы того, как начать майнинг Ethereum, и различные варианты майнинг-программ*
 ![майнинг ethereum](/images/mining/ethereum-majning-s-nulya.png)
 
  
