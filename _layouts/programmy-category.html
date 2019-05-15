@@ -3,19 +3,27 @@
   <head>
     <title>{% if page.title %}{{ page.title }} {% endif %}</title>
 
- {% include meta.html %}
+    {% include meta.html %}
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
 <link rel="shortcut icon" type="image/png" href="/images/favicon-16x16.png">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/my.css" />
+
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="all" />
+
+
+<link rel="stylesheet" href="/css/global.base.css">
+<link rel="stylesheet" href="/css/global.styles.css">
+<link rel="stylesheet" href="/css/at.layout.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/my.css" />
+<meta name="yandex-verification" content="147fed72c749e985" />
   </head>
 
   <body>
@@ -39,10 +47,10 @@
             <a href="{{ site.baseurl }}/news">Новости</a>
             <a href="{{ site.baseurl }}/mining">Майнинг</a>
             <a href="{{ site.baseurl }}/programmy">Программы</a>
-            <a href="{{ site.baseurl }}/mining">Новые Криптовалюты</a>
-            <a href="{{ site.baseurl }}/mining">Хайпы</a>
-            <a href="{{ site.baseurl }}/mining">Новичку</a>
-			<a href="{{ site.baseurl }}/mining">Заработать</a>	
+            <a href="{{ site.baseurl }}/novye-kriptovalyuty">Новые Криптовалюты</a>
+            <a href="{{ site.baseurl }}/hajpy">Хайпы</a>
+            <a href="{{ site.baseurl }}/novichku">Новичку</a>
+			<a href="{{ site.baseurl }}/zarabotat">Заработать</a>	
           </nav>
         </header>
       </div>
@@ -52,37 +60,30 @@
       {{ content }}
     </div>
 
-<div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
-
-
     <div class="wrapper-footer">
-		<div class="footer-sec1">
-		  <div class="container">
-			<footer class="footer">
+        <footer class="footer">	
+	<div class="pre-foot foo-cont">
+
+	Блоги Криптовалют
+
+	</div>	
+
+<div class="post-foot ">	
+<div class="foo-cont">	  
+
+
 	<span>Все права принадлежат авторам. Копирование без указания источника запрещено. <br>(ГК РФ Статья 1259. Объекты авторских прав) © 2019
 	</span>
-			</footer>
-		  </div>
-		</div>
-		<div class="footer-sec2">
-		</div>		
-		<div class="footer-sec3">
-		</div>		
-		<div class="footer-sec4">
-		</div>
-    </div>
-
-    {% include analytics.html %}
 	
+        </footer>
+
+</div>
+</div>
+      <div class="foot-container">
+    </div>
+    </div>
+	{% include metrica.html %}
+    {% include analytics.html %}
+
   </body>
 </html>
