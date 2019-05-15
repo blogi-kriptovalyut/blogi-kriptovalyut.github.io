@@ -1,6 +1,6 @@
 ---
 layout: mining-post-item
-title: Ethereum Майнинг с Нуля - Пошаговые Инструкции [2019]
+title: Как Майнить Akroma (AKA) с помощью видеокарт [2019]
 categories: Mining
 tags: [крипта]
 
