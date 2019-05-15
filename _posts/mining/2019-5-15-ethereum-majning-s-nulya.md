@@ -76,7 +76,7 @@ tags: [крипта, binance]
 
 Самый простой способ получить кошелек Ethereum - использовать MyEtherWallet (MEW) [ https://www.myetherwallet.com/ ], который бесплатный и обеспечивает безопасность и удобство. Доступ к MyEtherWallet можно получить через браузер, используя собственное расширение для браузера на базе Metamask.
 
-[link](url){:target="_blank"}
+[link](url){:target="_blank"}{:rel="nofollow"}
 
 
 ## Настройте программу
