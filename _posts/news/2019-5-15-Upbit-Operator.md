@@ -1,6 +1,6 @@
 ---
 layout: news-post-item
-title: Что случилось с Cryptopia? Биржа будет ликвидирована
+title: Инвестиции в Криптовалюту. Upbit  инвестировал 46 млн $
 categories: News
 tags: [крипта]
 date: 2019-05-15T13:20:00Z
