@@ -80,7 +80,7 @@ tags: [крипта, binance]
 Вам нужно выбрать один из двух майнеров:
 
 * [Claymore's Dual Ethereum AMD+NVIDIA GPU Miner v14.1 (Windows/Linux)](https://claymore-dual.github.io/ru){:target="_blank"}{:rel="nofollow"}
-* [PhoenixMiner 4.2c: fastest Ethereum/Ethash miner with lowest devfee (Win/Linux)](){:target="_blank"}{:rel="nofollow"}
+* [PhoenixMiner 4.2c: fastest Ethereum/Ethash miner with lowest devfee (Win/Linux)](https://phoenix-miner.github.io/ru){:target="_blank"}{:rel="nofollow"}
 
 Все они требуют настройки и редактирования файлов конфигурации, что требует определенных знаний интерфейса командной строки.
 Claymore долгое время занимал лидирующие позиции в списке майнеров Ethereum - его уважали за его прибыльность и контроль, который он предлагает над настройкой аппаратного обеспечения и возможностями майнинга нескольких монет.
