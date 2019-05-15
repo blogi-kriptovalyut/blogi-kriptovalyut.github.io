@@ -23,7 +23,7 @@ Akroma основана на алгоритме Dagger и может испол�
 
 ### Шаг 1
 Сначала нужно создать кошелек Akroma. Для этого нам нужно зайти на сайт 
-[https://wallet.akroma.io/](https://wallet.akroma.io){:target="_blank"}{:rel="nofollow"}
+[https://w.akroma.io](https://w.akroma.io/){:target="_blank"}{:rel="nofollow"}
 
 ![майнинг akroma](/images/mining/coins/akroma/akroma-wallet.jpeg)
 
