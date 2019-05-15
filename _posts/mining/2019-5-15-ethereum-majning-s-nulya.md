@@ -2,7 +2,7 @@
 layout: mining-post-item
 title: Ethereum Майнинг с Нуля - Пошаговые Инструкции [2019]
 categories: Mining
-tags: [крипта, binance]
+tags: [крипта]
 
 ---
 *В этой статье объясняются основы того, как начать майнинг Ethereum, и различные варианты майнинг-программ*
