@@ -67,15 +67,14 @@ Akroma основана на алгоритме Dagger и может испол�
 
 Перейдите на официальный сайт Claymore и скачайте последнюю версию майнера.
 
-<p class="sim2 pad">
 
- [Скачать Claymore's Dual Ethereum AMD+NVIDIA GPU Miner v14.1 (Windows/Linux) с официального сайта Claymore](https://claymore-dual.github.io/ru){:target="_blank"}{:rel="nofollow"}
+
+> [Скачать Claymore's Dual Ethereum AMD+NVIDIA GPU Miner v14.1 (Windows/Linux) с официального сайта Claymore](https://claymore-dual.github.io/ru){:target="_blank"}{:rel="nofollow"}
  
- [Скачать с Mega - пароль claymore](https://mega.nz/#!rXJSTILb!4V1YhoqrLq_svkZbX9cBVczcH-NVhCyYVDZHwU0ZSb4){:target="_blank"}{:rel="nofollow"}
+>  [Скачать с Mega - пароль claymore](https://mega.nz/#!rXJSTILb!4V1YhoqrLq_svkZbX9cBVczcH-NVhCyYVDZHwU0ZSb4){:target="_blank"}{:rel="nofollow"}
  
- [Скачать с Яндекс Диска - пароль claymore](https://yadi.sk/d/N_OHRswOuCISug){:target="_blank"}{:rel="nofollow"}
- 
-</p>
+>  [Скачать с Яндекс Диска - пароль claymore](https://yadi.sk/d/N_OHRswOuCISug){:target="_blank"}{:rel="nofollow"}
+
  
 Пока Claymore загружается, мы выберем пул, с которым мы получим монету. Я использую https: //upool.in надежный и стабильный пул для майнинга Акрома. Вы всегда можете найти другой пул, используя поиск Google. Но мне нравится этот бассейн.
 После загрузки распакуйте его в рабочую папку и найдите в нем файл «start.bat», щелкните по нему правой кнопкой мыши и нажмите « Изменить ».
