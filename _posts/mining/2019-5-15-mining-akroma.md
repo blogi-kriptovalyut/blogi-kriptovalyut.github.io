@@ -67,7 +67,7 @@ Akroma основана на алгоритме Dagger и может испол�
 
 Перейдите на официальный сайт Claymore и скачайте последнюю версию майнера.
 
-<div class="sim2">
+<div class="sim2 pad">
  [Скачать Claymore's Dual Ethereum AMD+NVIDIA GPU Miner v14.1 (Windows/Linux) с официального сайта Claymore](https://claymore-dual.github.io/ru){:target="_blank"}{:rel="nofollow"}
  
  [Скачать с Mega - пароль claymore](https://mega.nz/#!rXJSTILb!4V1YhoqrLq_svkZbX9cBVczcH-NVhCyYVDZHwU0ZSb4){:target="_blank"}{:rel="nofollow"}
