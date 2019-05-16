@@ -742,11 +742,6 @@ margin: 0 auto;
 .masthead {
     padding: 20px 0;
 }
-.wrapper-masthead {
-    margin-bottom: 50px;
-    border-bottom: 1px solid #ddd;
-}
-
 
 .post {
     background: #fdfdfd;
@@ -784,6 +779,9 @@ margin: 0 auto;
 .site-name {
 
     font-size: 96%;
+}
+.wrapper-masthead {
+    margin:0;
 }
 
 }
