@@ -708,6 +708,7 @@ font-size:19px;
     transform: scaleY(1.8);
     line-height: 56px;
 	word-break: break-all;
+	font-weight: 700;
 }
 
 .site-description {
