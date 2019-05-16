@@ -785,3 +785,11 @@ margin: 0 auto;
 }
 
 }
+@media all and (min-width:320px) and (max-width:512px){
+
+.site-name {
+
+    font-size: 96%;
+}
+
+}
