@@ -20,6 +20,8 @@ header: Можно ли заработать на криптовалюте в 20
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U2yejApGPVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<p class="vaz">В этом видео вы узнаете стоит ли инвестировать в криптовалюту, все подводные камни, в чем смысл криптовалюты и как не потерять деньги.</p>
+
 ## 5 шагов как заработать на криптовалюте
 
 Я для вас подготовил 5 несложных шагов для такого, чтобы заработать на неплохую жилплощадь.
