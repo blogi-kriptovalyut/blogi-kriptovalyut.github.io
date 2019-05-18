@@ -15,7 +15,7 @@ description: Заработок на Криптовалюте для Всех!
 # Flags below are optional
 #
 # будущие публикации
-future: true
+future: false
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
