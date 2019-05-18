@@ -5,7 +5,7 @@ tags: [Крипта]
 header: Можно ли заработать на криптовалюте в 2019 году?
 
 ---
-*President says U.S. would impose fresh levies on $325 billion in Chinese goods as negotiators move to salvage potential deal*
+*Я для вас подготовил 5 несложных шагов для такого, чтобы заработать на криптовалютах*
 ![My helpful screenshot](/images/mining/ETH/ethereum-money2.jpg)
 
 Давайте будем исходить из прагматики.  
