@@ -1,9 +1,8 @@
 ---
 layout: zarabotat-post-item
-title: U.S. Slaps Higher Tariffs on Chinese Imports as Trade Talks Resume лол
-categories: Zarabotat
+title: U.S. Можно ли Заработать на Криптовалюте в 2019. Вся правда
 tags: [Крипта]
-header: Можно ли заработать на криптовалюте?
+header: Можно ли заработать на криптовалюте в 2019 году?
 
 ---
 *President says U.S. would impose fresh levies on $325 billion in Chinese goods as negotiators move to salvage potential deal*
