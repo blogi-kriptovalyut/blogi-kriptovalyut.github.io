@@ -2,7 +2,7 @@
 layout: news-post-item
 title: Криптовалютные хэджфоны выросли в три раза
 categories: News
-tags: [крипта]
+tags: [Крипта]
 date: 2019-05-14T20:20:00Z
 
 ---

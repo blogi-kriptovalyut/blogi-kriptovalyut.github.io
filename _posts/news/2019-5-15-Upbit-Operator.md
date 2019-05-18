@@ -2,7 +2,7 @@
 layout: news-post-item
 title: Инвестиции в Криптовалюту. Upbit  инвестировал 46 млн $
 categories: News
-tags: [крипта]
+tags: [Крипта]
 date: 2019-05-15T19:20:00Z
 
 ---

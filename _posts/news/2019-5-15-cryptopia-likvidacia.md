@@ -2,7 +2,7 @@
 layout: news-post-item
 title: Что случилось с Cryptopia? Биржа будет ликвидирована
 categories: News
-tags: [крипта]
+tags: [Крипта]
 date: 2019-05-15T13:20:00Z
 
 ---
