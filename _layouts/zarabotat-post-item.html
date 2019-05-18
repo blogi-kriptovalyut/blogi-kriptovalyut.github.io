@@ -3,7 +3,7 @@ layout: zarabotat-category
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+<h1>{% if page.header %}{{ page.header }}{% else %}{{ page.title }}{% endif %}</h1>
 <!-- вывод даты -->
   <div class="date">
 	<i class="far fa-clock"></i> {% include date.html date=page.date %}
