@@ -2,7 +2,7 @@
 layout: mining-post-item
 title: Как Майнить Akroma (AKA) с помощью видеокарт [2019]
 categories: Mining
-tags: [крипта]
+tags: [крипта, Майнинг]
 header: Как майнить Akroma (AKA)
 
 ---
