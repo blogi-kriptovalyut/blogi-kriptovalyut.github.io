@@ -1,6 +1,7 @@
 ---
 layout: zarabotat-post-item
 title: Можно ли Заработать на Криптовалюте в 2019. Вся правда
+categories: Zarabotat
 tags: [Крипта]
 header: Можно ли заработать на криптовалюте в 2019 году?
 
