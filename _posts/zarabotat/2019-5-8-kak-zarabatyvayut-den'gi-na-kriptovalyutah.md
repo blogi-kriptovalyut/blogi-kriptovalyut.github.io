@@ -17,7 +17,7 @@ header: Можно ли заработать на криптовалюте в 20
 
 Что бы быстрее понять суть заработка и стоит ли инвестировать, посмотрите видеоролик.
 <div class="video mar">
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U2yejApGPVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 5 шагов как заработать на криптовалюте
