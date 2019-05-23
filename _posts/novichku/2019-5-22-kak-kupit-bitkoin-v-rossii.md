@@ -66,7 +66,7 @@ Cмотрите внимательно на адрес сайта потому, 
 
 Нам нужно пройти регистрацию.  Жмем "регистрация" и указываем  свой e-mail 
 
-Посмотрите видео что бы знать все подводные камни при покупке Биткоина.
+### Посмотрите видео что бы знать все подводные камни при покупке Биткоина.
 
 <div class="video mar">
 <iframe width="1263" height="712" src="https://www.youtube.com/embed/hDxKX2D375Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
