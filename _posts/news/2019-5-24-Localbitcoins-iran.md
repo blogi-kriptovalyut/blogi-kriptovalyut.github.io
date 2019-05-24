@@ -3,7 +3,7 @@ layout: news-post-item
 title: LocalBitcoins запрещает покупать биткойны в Иране
 categories: News
 tags: [Крипта]
-date: 2019-05-24T18:20:00Z
+date: 2019-05-24T15:20:00Z
 
 ---
 *И вот, как гром среди ясного неба, Localbitcoins  заявил, что теперь площадка прекращает операции в Иране.*
