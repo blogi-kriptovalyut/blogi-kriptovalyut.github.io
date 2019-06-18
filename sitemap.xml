@@ -1,57 +1,148 @@
----
-layout: null
-sitemap:
-  exclude: 'yes'
----
-
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    {% unless post.published == false %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.sitemap.lastmod %}
-        <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-      {% elsif post.date %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if post.sitemap.changefreq %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% else %}
-        <changefreq>monthly</changefreq>
-      {% endif %}
-      {% if post.sitemap.priority %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% else %}
-        <priority>0.5</priority>
-      {% endif %}
-    </url>
-    {% endunless %}
-  {% endfor %}
-  {% for page in site.pages %}
-    {% unless page.sitemap.exclude == "yes" %}
-    <url>
-      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
-      {% if page.sitemap.lastmod %}
-        <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-      {% elsif page.date %}
-        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-      {% endif %}
-      {% if page.sitemap.changefreq %}
-        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
-      {% else %}
-        <changefreq>monthly</changefreq>
-      {% endif %}
-      {% if page.sitemap.priority %}
-        <priority>{{ page.sitemap.priority }}</priority>
-      {% else %}
-        <priority>0.3</priority>
-      {% endif %}
-    </url>
-    {% endunless %}
-  {% endfor %}
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://blogi-kriptovalyut.github.io/news/bitcoin-rastet/</loc>
+<lastmod>2019-05-14T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/news/Hedge-Funds/</loc>
+<lastmod>2019-05-14T20:20:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/mining/ethereum-majning-s-nulya/</loc>
+<lastmod>2019-05-15T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/mining/mining-akroma/</loc>
+<lastmod>2019-05-15T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/programmy/claymore-14/</loc>
+<lastmod>2019-05-15T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/news/cryptopia-likvidacia/</loc>
+<lastmod>2019-05-15T13:20:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/news/Upbit-Operator/</loc>
+<lastmod>2019-05-15T19:20:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/programmy/claymore-14.2/</loc>
+<lastmod>2019-05-16T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/programmy/claymore-14.3/</loc>
+<lastmod>2019-05-16T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/programmy/claymore-14.4/</loc>
+<lastmod>2019-05-17T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/zarabotat/kak-zarabatyvayut-den'gi-na-kriptovalyutah/</loc>
+<lastmod>2019-05-18T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/programmy/claymore-14.5/</loc>
+<lastmod>2019-05-19T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/programmy/srbminer-1.8.9/</loc>
+<lastmod>2019-05-19T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/novye-kriptovalyuty/ton/</loc>
+<lastmod>2019-05-19T20:20:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/novichku/kak-kupit-bitkoin-v-rossii/</loc>
+<lastmod>2019-05-22T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/news/Localbitcoins-iran/</loc>
+<lastmod>2019-05-24T15:20:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/programmy/claymore-14.6/</loc>
+<lastmod>2019-05-27T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/programmy/claymore-14.7/</loc>
+<lastmod>2019-06-18T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/legal/terms/</loc>
+<lastmod>2019-06-11T16:42:38+00:00</lastmod>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/tags/%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B0/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/tags/%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/tags/claymore-dual-miner-ethereum-%D0%BC%D0%B0%D0%B9%D0%BD%D0%B8%D0%BD%D0%B3/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/tags/srbminer-cryptonight-r/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/tags/%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%B0-ton/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/tags/%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B0/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/tags/claymore-dual-miner-ethereum/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/categories/news/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/categories/mining/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/categories/programmy/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/categories/zarabotat/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/categories/novye-kriptovalyuty/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/categories/novichku/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/exchanges/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/page2/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/mining/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/news/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/novichku/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/novye-kriptovalyuty/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/programmy/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/video/</loc>
+</url>
+<url>
+<loc>https://blogi-kriptovalyut.github.io/zarabotat/</loc>
+</url>
 </urlset>
