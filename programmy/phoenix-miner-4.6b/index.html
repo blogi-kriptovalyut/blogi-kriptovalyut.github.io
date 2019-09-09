@@ -228,7 +228,7 @@
 
 
 
-  1 мин на чтение
+  2 мин на чтение
 </p>
           
         </header>
@@ -289,6 +289,29 @@
 <img src="/assets/images/programmy/phoenixminer/PhoenixMiner-4.5b-nastroyka.png" alt="файлы phoenixminer"><span class="img-tit nev">Настроенные файлы программы</span>
 </a></p>
 
+<h2 id="настройка-для-nicehash">Настройка для Nicehash</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PhoenixMiner.exe -pool stratum+tcp://daggerhashimoto.eu-new.nicehash.com:3353 -wal 16p3MvQB7Va2cAPBahvkBePxqQtwTd77sP -pass x -log 0 -tt 79 -tstop 89 -tstart 85 -fanmin 30 -Rmode 1 -proto 4 -stales 0 -fret 1 -rate 1
+</code></pre></div></div>
+<h2 id="команда--reboot">Команда  reboot</h2>
+
+<p>“-r 1” - закрывает майнер и вызывает файл “reboot.bat” (для Линукс - “reboot.bash” или “reboot.sh”) из каталога майнера (если он там есть) если что-то не то с какой-то из видеокарт. Таким образом, вы можете создать файл “reboot.bat” и предпринять какие-то действия, например, перезагрузить компьютер, поместив там строку: “shutdown /r /t 5 /f”, где:</p>
+<ul>
+  <li>r - перезагрузка;</li>
+  <li>t 5 - таймаут завершения работы 5 секунд;</li>
+  <li>f - принудительно завершить программы без предупреждения.</li>
+</ul>
+
+<h3 id="пример-файла-rebootbat">Пример файла reboot.bat</h3>
+
+<p>shutdown /r /t 10 /f</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rem Здесь:
+rem - r - перезагрузить компьютер;
+rem - t 10 - таймаут завершения работы 10 секунд;
+rem - f - принудительно завершить программы без предупреждения.
+</code></pre></div></div>
+
 <h2 id="загрузка">Загрузка</h2>
 
 <blockquote class="notice--info">
@@ -302,6 +325,18 @@
 <blockquote class="notice--success">
   <p><a href="https://yadi.sk/d/oYy8SJ-FcI1Azw" rel="nofollow noopener noreferrer" target="_blank">Скачать с Яндекс Диска</a></p>
 </blockquote>
+
+<h3 id="комиссия">Комиссия</h3>
+
+<p>Комиссия разработчку составляет 0,65%.</p>
+
+<p>Для карт с 2 ГБ видеопамяти (и с 3 ГБ видеопамяти под Windows 10), которые больше не могут добывать ETH и ETC) плата разработчику составляет 0%, на таких картах вы можете добывать форки Эфира без платы разработчику.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-nofee
+</code></pre></div></div>
+<p>Установите “1”, чтобы отменить гонорар разработчику. В этом режиме некоторые оптимизации отключаются и скорость добычи падает примерно на 4%.
+При включении этого режима я теряю 100% заработка, вы теряете лишь 2-3% вашего заработка.
+Таким образом, у вас есть выбор: “быстрый майнер” или “совершенно бесплатный майнер, но чуть медленнее”.
+Если вы хотите и быстро и бесплатно - вы должны найти какой-то другой майнер. Просто не используйте этот майнер вместо того, чтобы утверждать, что мне нужно отменить или уменьшить плату разработчику, заявив, что 1-2% плата разработчика - слишком много и т.п.</p>
 
         
       </section>
