@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Скачать Claymore Dual Miner 15.0 Ethereum (март, 2020)</title>
+<!-- begin _includes/seo.html --><title>Настроить Claymore Dual Miner 15.0 Ethereum [2020]</title>
 <meta name="description" content="Вышла версия 15.0 Dual Miner от Claymore. Скачать и настроить программу поможет эта статья">
 
 
@@ -12,7 +12,7 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="Зарабатывайте на Криптовалютое в России!">
-<meta property="og:title" content="Скачать Claymore Dual Miner 15.0 Ethereum (март, 2020)">
+<meta property="og:title" content="Настроить Claymore Dual Miner 15.0 Ethereum [2020]">
 <meta property="og:url" content="https://bitkoinblog.ru/programmy/claymore-15.0/">
 
 
@@ -25,7 +25,7 @@
 
 
   <meta name="twitter:site" content="@zwelakh70170477">
-  <meta name="twitter:title" content="Скачать Claymore Dual Miner 15.0 Ethereum (март, 2020)">
+  <meta name="twitter:title" content="Настроить Claymore Dual Miner 15.0 Ethereum [2020]">
   <meta name="twitter:description" content="Вышла версия 15.0 Dual Miner от Claymore. Скачать и настроить программу поможет эта статья">
   <meta name="twitter:url" content="https://bitkoinblog.ru/programmy/claymore-15.0/">
 
@@ -40,7 +40,7 @@
 
 
 
-  <meta property="article:published_time" content="2019-08-27T00:00:00+00:00">
+  <meta property="article:published_time" content="2020-03-02T00:00:00+00:00">
 
 
 
@@ -329,17 +329,17 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Скачать Claymore Dual Miner 15.0 Ethereum (март, 2020)">
+    <meta itemprop="headline" content="Настроить Claymore Dual Miner 15.0 Ethereum [2020]">
     <meta itemprop="description" content="Вышла версия 15.0 Dual Miner от Claymore. Скачать и настроить программу поможет эта статья">
-    <meta itemprop="datePublished" content="August 27, 2019">
+    <meta itemprop="datePublished" content="March 02, 2020">
      
 	
     <div class="page__inner-wrap">
       
         <header>
-          <!-- <h1 id="page-title" class="page__title" itemprop="headline">Скачать Claymore Dual Miner 15.0 Ethereum (март, 2020)
+          <!-- <h1 id="page-title" class="page__title" itemprop="headline">Настроить Claymore Dual Miner 15.0 Ethereum [2020]
 </h1> -->
-		  <h1 id="page-title" class="page__title" itemprop="headline">Последняя версия клеймора - 15.0 (Скачать)
+		  <h1 id="page-title" class="page__title" itemprop="headline">Настроить Claymore s Dual Ethereum Miner
 </h1>
           
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
@@ -347,7 +347,7 @@
 
 
 
-  1 мин на чтение
+  5 мин на чтение
 </p>
           
         </header>
@@ -376,22 +376,52 @@
 
 <p>15.0</p>
 <ul>
-  <li>теперь майнер поддерживает DAG эпоху до 384 (размер DAG 4 ГБ). Обратите внимание, что предыдущие версии поддерживают до 299 эпохи, вы не сможете использовать старые версии после 299 эпохи. </li>
-  <li>добавлена поддержка карт Navi (режим только ETH). </li>
-  <li>теперь майнер автоматически устанавливает переменные окружения (требуется для 4ГБ карт AMD). </li>
-  <li>несколько мелких исправлений и улучшений</li>
+  <li>
+<p>теперь драйвер майнера не требует переключения Windows в тестовый режим. Если вы хотите отключить тестовый режим, используйте команду <code>-driver uninstall</code> (с правами администратора) и перезагрузите компьютер, затем запустите майнер с правами администратора, чтобы при необходимости автоматически устанавливать новый драйвер (или напрямую используйте команду <code>-driver install</code>).</p>
+ <p>Если у вас есть какие-либо проблемы с подписанным драйвером, вы можете использовать ключ <code>-driver install_test</code>, он использует старый подход: включает тестовый режим (требуется перезагрузка) и устанавливает неподписанный драйвер.</p>
+</li>
+  <li><p>добавлен параметр <code>-showpower</code> для отслеживания статистики энергопотребления видеокартой, нажмите «s», чтобы увидеть ее. Поддерживаются карты AMD и Nvidia, за исключением драйверов Linux gpu-pro и карт Radeon7. </p></li>
+  <li><p>обновлен Remote Manager для отображения общего энергопотребления. </p></li>
+  <li><p>исправлена проблема с параметром <code>-logsmaxsize</code>, когда параметр <code>-logfile</code> используется для указания каталога для файлов журнала</p></li>
+  <li><p>несколько мелких исправлений и улучшений.</p></li>
 </ul>
 
-<p>PS. У AMD до сих пор нет общедоступных драйверов Navi с исправлением DAG файла, поэтому в настоящее время видеокарта 5700XT показывает очень слабый хэшрейт. Но AMD уже решила эту проблему, и они обещают выпустить общедоступные драйверы в ближайшее время …</p>
+<p class="notice--ya">Добавлена поддержка применения оптимизированных таймингов памяти (straps) «на лету» в Windows, без перепрошивки VBIOS (в настоящее время только карты Polaris, Vega, Nvidia 10xx), ускорение до 20%.</p>
 
-<p>Пока дарйвера под новую линейку AMD не написаны, получаю:</p>
+<p><strong><em>Функция <code>-strap</code> действительно помогает новичкам, которые не хотят перепрошивать свои карты и лишаться гарантии.</em></strong></p>
 
-<ul>
-  <li>RX 5700 - 3 Mh/s</li>
-  <li>RX 5700XT 3,5 Mh/s</li>
-</ul>
+<p>С помощью новой функции <code>-strap</code>, видеокарты выдают скорость хеширования как прошитые. Т.е. RX 570/580 выдает около 30-33 Mh/s вместо стандартных 18 Mh/s.</p>
 
-<p>с драйверами 19.8.1 и win10</p>
+<p><a href="/assets/images/programmy/mining-claymore.jpg" class="gray lightbox-image current">
+<img src="/assets/images/programmy/mining-claymore.jpg" alt="майнинг">
+</a></p>
+
+<p>Я уверен, что PhoenixMiner вскоре последует этому примеру.</p>
+
+<p>Так же теперь майнер показывает Энергопотребление видеокарт.</p>
+
+<p>Команда <code>-showpower</code> позволяет отображать статистику энергопотребления видеокартой при нажатии клавиши «s». Значение по умолчанию - «1» (показать статистику потребления энергии), используйте -showpower 0, чтобы скрыть.</p>
+
+<p class="notice--info">Майнер просто показывает значения, которые возвращает видеодрайвер. Если видеодрайвер сообщает неверное значение, то вы его и увидите. Кстати, вы должны увидеть те же значения в программе GPU-Z.</p>
+
+<p>Для nvidia энергопотребление показывается в основном точное, а для AMD оно в значительной степени зависит от того, какой драйвер установлен и показывается «только энергопотребление ядра GPU».</p>
+
+<p>Похоже, что пока майнер берет правильный датчик энергопотребления только для 1-й видеокарты. Но для всех остальных потребуется VCCDI Power Draw. Будем следить за обновленияи.</p>
+
+<p><strong><em>Я достиг ~ 56 MH/s с 1080TI. Майнер кажется стабильным на данный момент.</em></strong></p>
+
+<p>Я использовал -<code>strap 4</code> с Pill и разгоном памяти 5700Mhz. Лимит энергопотребления составил PL 75% -80%.</p>
+
+<p><a href="/assets/images/programmy/claymore-strap8.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-strap8.png" alt="тайминги 1080 Ti"><span class="img-tit nev">Установка тайминга на 1080 Ti</span>
+</a></p>
+
+<p>В архиве с программой есть шаблоны под все поддерживаемые монеты и пулы.</p>
+
+<p class="vaz2">Не забудьте поменять кошелек на свой!!!</p>
+<p><a href="/assets/images/programmy/claymore-files.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-files.png" alt="файлы claymore"><span class="img-tit nev">Настроенные файлы программы</span>
+</a></p>
 
 <h2 id="скачать-версию-150-1">Скачать версию 15.0</h2>
 
@@ -407,13 +437,12 @@
   <p><a href="https://yadi.sk/d/MPefLjxs_MMKzw" rel="nofollow noopener" target="_blank">Скачать с Яндекс Диска - пароль claymore</a></p>
 </blockquote>
 
-<h2 id="пример-настройки-для-nicehash">Пример настройки для NiceHash</h2>
+<h2 id="пример-настройки">Пример настройки</h2>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu-new.nicehash.com:3353 -ewal 3LZhp4g3m7YWqR4hAPrZsKWbyo7hRBmqvy -epsw x -dbg -1 -tt 79 -ttli 77 -tstop 89 -tstart 85 -fanmin 30 -r 0 -esm 3 -estale 0 -erate 1 -allpools 1
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal ВАШ_КОШЕЛЕК -epsw x -esm 3
+pause
 
-</code></pre></div></div>
-<h2 id="пример-настройки-для-ethereum-на-пуле-sparkpool">Пример настройки для Ethereum на пуле Sparkpool</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EthDcrMiner64.exe -epool eu.sparkpool.com:3333 -ewal 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d -eworker Claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -tt 79 -ttli 77 -tstop 89 -fanmin 30
+
 </code></pre></div></div>
 
 <h2>  <a id="sect1"></a>Как использовать тайминги не прошивая карту?</h2>
@@ -425,6 +454,147 @@
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal 16p3MvQB7Va2cAPBahvkBePxqQtwTd77sP -epsw x -tt 79 -ttli 77 -tstop 89 -tstart 85 -fanmin 30 -r 0 -esm 3 -strap 1
 
 </code></pre></div></div>
+
+<p>Пока данная функция работает  лишь только в операционных системах Windows, но вскоре Claymore выпустит версию для применения таймингов и для Linux.</p>
+
+<p>Функциональность майнера благополучно испытана с драйверами версий 18.6.1 и 19.4.3 для AMD серий Polaris и Vega, а еще Nvidia с последними драйверами.</p>
+
+<p>Claymore разработал личный, оптимизированный драйвер для работы с видеоплатами. Он механически применяется впоследствии первого пуска майнера с командой <code>-strap</code>.</p>
+
+<p>Для ручной установки/деинсталляции драйвера возможно применить команды <code>-driver install</code> и <code>-driver uninstall</code>, которые дописываются в батник.</p>
+
+<p><a href="/assets/images/programmy/claymore-driver.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-driver.png" alt="файлы claymore"><span class="img-tit nev">Установка драйвера программы</span>
+</a></p>
+
+<p>В связи с тем,  что драйвер не содержит цифровой подписи Windows, кое-какие антивирусы имеют все шансы заблокировать его установку.</p>
+
+<p>Впоследствии запуска программы, она подключает тестовый режим в системе, и полная установка драйвера случится лишь только впоследствии перезагрузки операционной системы.</p>
+
+<p>Теперь возможно запускать майнер, применяя команду <code>-strap</code>.</p>
+
+<p>Майнер содержит базу данных с таймнгами для видеокарт с размером памяти 4 и 8GB для типов памяти:</p>
+
+<ul>
+  <li>Samsung</li>
+  <li>Elpida</li>
+  <li>Hynix</li>
+  <li>Micron</li>
+</ul>
+
+<p>Тайминги (straps) имют отличия в  интенсивности, к примеру <code>-strap 1</code> поддерживает больше жесткий разгон, чем <code>-strap 2</code>.</p>
+
+<p>Для начала тестирования лучше всего применять 1-ый тайминг, наименее инетнсивный “страп” и пытаться помаленьку разгонять частоту ядра карты.</p>
+
+<p>Как и иные команды для программы, страпы возможно ставить в командной строке персонально для любой видеокарты, разделяя запятыми, к примеру: <code>-strap 1,2,3,4</code> – для 0,1,2 видеокарт в соответствии с этим.</p>
+
+<p><a href="/assets/images/programmy/claymore-strap2.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-strap2.png" alt="файлы claymore"><span class="img-tit nev">Установка тайминга для каждой карты в отдельности</span>
+</a></p>
+
+<p class="vaz">Еще в командной строке возможно применить абсолютный формат таймингов в виде «POL8S1», где «POL» означает Polaris, «8» — память 8GB, «S» – память Самсунг, «1» – индекс.
+</p>
+
+<p>Для отключения оптимизированных страпов и применения интегрированных в BIOS видеоплаты значений применяется довод 0 в команде strap.</p>
+
+<p>Не считая управления таймингами, возможно задавать частоту видеопамяти с поддержкой знака «@» и частоты в мгц (аналог команды «-mclock» с большущим приоритетом), к примеру: <code>-strap POL4E2@1900</code></p>
+
+<p><a href="/assets/images/programmy/claymore-strap.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-strap.png" alt="файлы claymore"><span class="img-tit nev">Установка тайминга</span>
+</a></p>
+
+<p>Для видеокарт Nvidia в данном случае возможно применить данную команду в облике: <code>-strap 2@+700</code>.
+<a href="/assets/images/programmy/claymore-strap2.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-strap2.png" alt="файлы claymore"><span class="img-tit nev">Установка тайминга</span>
+</a></p>
+
+<p>Возможно вообщем не задавать значений частоты и вольтажа в командной строке батника, а применить лишь только команду <code>-strap 1</code> (или иная цифра интенсивности).</p>
+
+<p>Таким образом разгон и даунвольтинг возможно создавать программкой NVidia inspector (или MSI Afterburner), или overdriventtool.</p>
+
+<p>Значения частот и применяемых таймингов в батнике программы возможно ставить персонально для любой видеокарты в отдельности, к примеру: <code>-strap 1@2100,POL4H3,0</code>.</p>
+
+<p>По окончанию работы программы механически восстанавливаются родные тайминги и частоты.</p>
+
+<p class="vaz">Любопытно,  что драйвер впоследствии установки майнером с командой <code>-strap</code> работает и с другими майнерами. </p>
+
+<p>На практике испытано и замечено наращивание производительности майнинга в Phoenix miner впоследствии установки драйвера Claymore и удачного запуска консоли с командой <code>-strap</code>.</p>
+
+<p>При аварийном окончании работы майнера и зависании системы наращивания хешрейта в Phoenix miner не наблюдается.</p>
+
+<p>Вполне вероятно, это связано с  Клеймором. В папке drivers системы Windows есть файл  cmdrv64.sys, который улучшает производительность при содействии ОС с видеокартой.</p>
+
+<p>Снимок экрана шага инициализации майнера Claymore 15.0 в системе с установленным и оптимизированным драйвером с 4-я видеокартами AMD Polaris:</p>
+
+<p><a href="/assets/images/programmy/claymore-strap4.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-strap4.png" alt="файлы claymore"><span class="img-tit nev">Установка тайминга</span>
+</a></p>
+
+<p>А потом Клеймор работает в обычном режиме:</p>
+
+<p><a href="/assets/images/programmy/claymore-strap5.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-strap5.png" alt="файлы claymore">
+</a></p>
+
+<p>Впоследствии удачного (безаварийного) окончания работы Клеймора был запущен Phoenix miner с теми же опциями разгона и даунвольтинга.</p>
+
+<p>В системе с картами AMD серии RX с прошитыми таймингами хешрейт в Phoenix miner несколько повыше (по сопоставлению с Клеймором):</p>
+
+<p><a href="/assets/images/programmy/claymore-strap6.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-strap6.png" alt="файлы claymore">
+</a></p>
+
+<p>В случае если принимать во внимание бОльшую комиссию создателю в Claymore (1%) по сопоставлению с Phoenix miner (0,65%), то на последнем на прошитых картах выигрыш в хешрейте несколько больше.</p>
+
+<p>Но, в случае, если принимать во внимание численность реджектов и стейл-шар, коих в Клейморе меньше, то рентабельность майнинга в данных прогах (на прошитых картах AMD) приблизительно схожа.</p>
+
+<p>На картах Nvidia имеется не хилый прирост хешрейта. К примеру, на карте GTX 1080 скорость майнинга составляет 38 mh/s (в Phoenix miner без применения оптимизированного драйвера и страпов – 35 mh/s). На GTX1060 и 1050Ti благодаря Claymore 15.0 замечен прирост хешрейта на 1-1,5 mh/s:</p>
+
+<p>Снимок экрана сборной солянки из 3-х карт R9 290/290Х, GTX1080, GTX1060 6 Gb, GTX1050Ti в риге под управлением Windows 7 на NIcehash:</p>
+
+<p><a href="/assets/images/programmy/claymore-strap7.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-strap7.png" alt="файлы claymore">
+</a></p>
+
+<h2 id="какие-тайминги-использовать">Какие тайминги использовать?</h2>
+
+<ul>
+  <li>1060 все виды памяти - strap 1</li>
+  <li>rx 570 память Самсунг - strap 3</li>
+  <li>rx 580 память Эльпида - strap 4</li>
+</ul>
+
+<p><strong><em>Если вы применяете тайминги, то запускать бат файл нужно только с правами администратора!</em></strong></p>
+
+<p><a href="/assets/images/programmy/claymore-admin.png" class="gray lightbox-image current">
+<img src="/assets/images/programmy/claymore-admin.png" alt="файлы claymore"><span class="img-tit nev">Запуск программы с правами администратора</span>
+</a></p>
+
+<p>Если запускать программу от имени администратора, то нужно обязательно указывать полный путь до .exe программы, т.к. рабочая папка становится C:\Windows\system32.</p>
+
+<h3 id="пример-1">Пример</h3>
+
+<p>Переместите папку с майнером на диск C. Таким образом на диске C у нас будет находиться папка Claymore и мы сможем указать путь до EthDcrMiner64.exe:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:\Claymore\EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal 16p3MvQB7Va2cAPBahvkBePxqQtwTd77sP -epsw x -dbg -1 -retrydelay 1 -ftime 55 -tt 79 -ttli 77 -tstop 89 -tstart 85 -fanmin 30 -r 0 -esm 3 -estale 0 -erate 1 -allpools 1
+
+</code></pre></div></div>
+
+<h2 id="тестирование-новых-видеокарт-nvidia">Тестирование новых видеокарт Nvidia</h2>
+
+<p>RTX 2060 кажется немного быстрее на Эфириуме (может быть, в среднем на 2 MH/s, пиковая скорость на ~ 1 MH/s быстрее, а в среднем 31 MH/s с пиком 32, до этого было около 30,5 MH/s, а в среднем -  31 MH/s).</p>
+
+<p>Но с тем же значением <a href="https://claymoredualminer.com/dcri-claymore" target="_blank">-dcri</a>, дуал майнингом, хешрейт упал с 1300 MH/s до 700 MH/s!</p>
+
+<p>Я планировал отключить дуал-майнинг в любом случае, так как кажется, что все Двойные монеты - это отстой, и они стоят очень дешего…</p>
+
+<p>На моих RX 570-х дуал-майнинг потребляет от 130 до 180 Вт! и убивает мой коэффициент доходности. Дуал-майнингн в июне 2019 не стоит этого вообще!</p>
+
+<p>AMD 570 4gb с памятью elpida не намного быстрее со <code class="highlighter-rouge">-straps 1</code> <code class="highlighter-rouge">-rxboost 1</code> с разгоном,  которой я был раньше (1111mhz ядро и  2050mhz память).</p>
+
+<p>Это все мои наблюдения после быстрого тестирования с новой версией (пока что 31 минут на самой большой ферме).</p>
+
+<p>Версии 14.0 и 15.0 показывают, что мои вентиляторы работают на ~ 60% для RX 570 (хотя на самом деле они наботают на 57% и 61% соответственно).</p>
 
 <h2 id="скачать-версию-150-2">Скачать версию 15.0</h2>
 <blockquote class="notice--info">
@@ -439,7 +609,7 @@
   <p><a href="https://yadi.sk/d/MPefLjxs_MMKzw" rel="nofollow noopener" target="_blank">Скачать с Яндекс Диска - пароль claymore</a></p>
 </blockquote>
 
-<p class="notice--ya"><a href="https://yadi.sk/d/cJgtYbP3-w15jQ" rel="nofollow noopener" target="_blank">Linux версия</a></p>
+<p>Linux версия https://yadi.sk/d/cJgtYbP3-w15jQ</p>
 
         
       </section>
@@ -492,7 +662,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения:</strong> <time datetime="2019-08-27T00:00:00+00:00">27.08.2019</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения:</strong> <time datetime="2020-03-02T00:00:00+00:00">02.03.2020</time></p>
         
 
       </footer>
@@ -502,7 +672,7 @@
     <h4 class="page__share-title">Поделиться</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?via=zwelakh70170477&amp;text=%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C+Claymore+Dual+Miner+15.0+Ethereum+%28%D0%BC%D0%B0%D1%80%D1%82%2C+2020%29%20https%3A%2F%2Fbitkoinblog.ru%2Fprogrammy%2Fclaymore-15.0%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?via=zwelakh70170477&amp;text=%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C+Claymore+Dual+Miner+15.0+Ethereum+%5B2020%5D%20https%3A%2F%2Fbitkoinblog.ru%2Fprogrammy%2Fclaymore-15.0%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Twitter" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbitkoinblog.ru%2Fprogrammy%2Fclaymore-15.0%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Поделиться Facebook" rel="nofollow noopener" target="_blank"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
@@ -513,11 +683,11 @@
       
   <nav class="pagination">
     
-      <a href="/programmy/srb-miner-1.9.3/" class="pagination--pager" title="Скачать SRBMiner 1.9.3 Cryptonight AMD GPU [март 2020]
+      <a href="/news/bitcoin-ecology-02-03/" class="pagination--pager" title="Биткоин - это самый экологичный в мире финансовый продукт
 ">Предыдущая</a>
     
     
-      <a href="/programmy/phoenix-miner-4.6b/" class="pagination--pager" title="Скачать Phoenix Miner 4.6b AMD/NVIDIA Ethereum [март 2020]
+      <a href="/zarabotat/chastnie-banki/" class="pagination--pager" title="Список негосударственных [частных, коммерческих] банков
 ">Следующая</a>
     
   </nav>
@@ -590,6 +760,74 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
+        <a href="/programmy/phoenix-miner/" rel="permalink">Скачать PhoenixMiner 4.9c AMD/NVIDIA Ethereum [2020]
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 мин на чтение
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">PhoenixMiner 4.9c выпущен как стабильная версия, решающая ошибки 4 ГБ видеокарт в Windows 10. Скачать и настроить программу поможет эта статья
+
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/programmy/claymore/" rel="permalink">Скачать Клеймор Майнер 15.0 Ethereum (ETH) [Март, 2020]
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 мин на чтение
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Версия 15.0 Dual Miner от Claymore. Скачать и настроить программу поможет эта статья
+
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/thumbs/500x300.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
         <a href="/news/gena-tribute-06-03/" rel="permalink">Что случится с Биткоином если заблокируют Интернет [Решено, 2020]
 </a>
       
@@ -604,71 +842,6 @@
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">Реальное влияние на сеть биткоина имеют голосующие контрибьюторы проекта, они живые и разумные люди. С ними Ник Сабо, по моей версии настоящий Сатоши Накамот...</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/thumbs/500x300.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/zarabotat/chto-takoe-index/" rel="permalink">Что Такое Индекс и Как на нем Заработать?[Решено,2020]
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  2 мин на чтение
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Индексов существует огромное количество. Как по странам, так по отдельным отраслям. Например, одним из самых известных мировых, является ИНДЕКС SnP500 (он со...</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/thumbs/500x300.png" alt="">
-      </div>
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/news/google-zapros-05-03/" rel="permalink">Когда вырастит курс Биткоина? [Решено, 2020]
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  1 мин на чтение
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Количество google-запросов с тегом «купить биткоин» достигло годового максимума, превысив показатели июня 2019 года, когда курс достигал отметки $13 800.
-
-
-</p>
   </article>
 </div>
 
