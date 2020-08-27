@@ -29,3 +29,5 @@
         iframe.setAttribute("allowfullscreen", "1");
         this.parentNode.replaceChild(iframe, this);
     }
+
+
