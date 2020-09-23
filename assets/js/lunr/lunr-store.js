@@ -2230,4 +2230,10 @@ var store = [{
         "tags": ["история"],
         "url": "https://bitkoinblog.ru/news/gen-sec-09-22/",
         "teaser": "https://bitkoinblog.ru/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Крах Фондовых рынков продолжится. Дно еще впереди",
+        "excerpt":"**    ","categories": ["News"],
+        "tags": ["история"],
+        "url": "https://bitkoinblog.ru/news/gen-clear-09-23/",
+        "teaser": "https://bitkoinblog.ru/assets/images/thumbs/500x300.png"
       },]
