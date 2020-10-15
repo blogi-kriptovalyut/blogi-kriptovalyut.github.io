@@ -10,7 +10,7 @@
                 div = document.createElement("div");
                 div.setAttribute("data-id", v[n].dataset.id);
                 div.innerHTML = labnolThumb(v[n].dataset.id);
-                div.onclick = labnolIframe;
+                div.onmouseover = labnolIframe;
                 v[n].appendChild(div);
             }
         });
