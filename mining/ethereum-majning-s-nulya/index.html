@@ -44,7 +44,7 @@
 
 
 
-  <meta property="article:modified_time" content="2020-08-24T00:00:00+00:00">
+  <meta property="article:modified_time" content="2020-11-17T00:00:00+00:00">
 
 
 
@@ -361,7 +361,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta itemprop="headline" content="Ethereum Майнинг с Нуля - Пошаговые Инструкции [2020]">
     <meta itemprop="description" content="В этой статье объясняются основы того, как начать майнинг Ethereum, и различные варианты майнинг-программ">
     <meta itemprop="datePublished" content="May 15, 2019">
-    <meta itemprop="dateModified" content="August 24, 2020"> 
+    <meta itemprop="dateModified" content="November 17, 2020"> 
 	
     <div class="page__inner-wrap">
       
@@ -497,13 +497,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <h4 id="3-настройте-программу">3. Настройте программу</h4>
 <p>Вам нужно выбрать один из двух майнеров:</p>
 
-<ul class="notice--info">
-  <li><a href="https://claymore-dual.github.io/ru" target="_blank" rel="nofollow">Claymore’s Dual Ethereum AMD+NVIDIA GPU Miner (Windows/Linux)</a></li>
-</ul>
-
-<ul class="notice--info">
-  <li><a href="https://phoenix-miner.github.io/ru" target="_blank" rel="nofollow">PhoenixMiner: fastest Ethereum/Ethash miner with lowest devfee (Win/Linux)</a></li>
-</ul>
+<ol>
+  <li>
+    <p><a href="https://phoenixminer.org" target="_blank" rel="nofollow">PhoenixMiner: fastest Ethereum/Ethash miner with lowest devfee (Win/Linux)</a></p>
+  </li>
+  <li>
+    <p><a href="https://claymoredualminer.com/" target="_blank" rel="nofollow">Claymore’s Dual Ethereum AMD+NVIDIA GPU Miner (Windows/Linux)</a></p>
+  </li>
+</ol>
 
 <p>Все эти программы требуют настройки и редактирования файлов конфигурации, что требует небольших знаний интерфейса командной строки.</p>
 
@@ -513,7 +514,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <h5 id="как-настроить-программу-phoenixminer">Как настроить программу PhoenixMiner</h5>
 
-<p>Краткое руководство о том, как настроить программу PhoenixMiner:</p>
+<p>Краткое руководство о том, <a href="/programmy/phoenix-miner/">как настроить программу PhoenixMiner</a>:</p>
 
 <ul>
   <li>Шаг 1 – Скачайте программу</li>
@@ -522,16 +523,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <li>Шаг 4 – Запустите майнинг двойным щелчком по файлу, который имеет расширение .bat</li>
 </ul>
 
-<div class="video mar">
-<iframe width="789" height="444" src="https://www.youtube.com/embed/PET8OgA_xvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" loading="lazy"></iframe>
-</div>
-
-<p>Пример настройки Claymore Miner:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d -eworker Claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 77 -tstop 89 -tstart 79 -fanmin 30
-</code></pre></div></div>
-
-<p>Вместо 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d  укажеите <strong>свой</strong> адрес кошелька!!</p>
+<div class="youtube-player" data-id="hG052jFwe_U"></div>
+<div class="ytb-but"><a href="https://bit.ly/36QtxTr" rel="nofollow noopener" target="_blank">подписывайтесь</a></div>
 
 <p>Пример настройки PhoenixMiner:</p>
 
@@ -541,6 +534,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>Вместо 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d  укажеите <strong>свой</strong> адрес кошелька!!</p>
 
 <p><a href="/assets/images/mining/bat-file.png" class="image-popup"> <img src="/assets/images/mining/bat-file.png" alt="bat-file" loading="lazy"> </a></p>
+
+<p>Пример настройки Claymore Miner:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d -eworker Claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 77 -tstop 89 -tstart 79 -fanmin 30
+</code></pre></div></div>
+
+<p>Вместо 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d  укажеите <strong>свой</strong> адрес кошелька!!</p>
 
 <p>Все эти программы имеют выделенные сообщества, и различные пошаговые инструкции по установке легко найти.</p>
 
@@ -671,7 +671,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
         
-		  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения:</strong> <time datetime="24.08.2020">24.08.2020</time></p>
+		  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Дата изменения:</strong> <time datetime="17.11.2020">17.11.2020</time></p>
         
 
       </footer>
