@@ -1900,4 +1900,10 @@ var store = [{
         "tags": [],
         "url": "https://bitkoinblog.ru/programmy/phoenix-miner-5.3b/",
         "teaser": "https://bitkoinblog.ru/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Феникс Майнер Последняя Версия&#58; 5.3b [2020]",
+        "excerpt":"Phoenix Miner последняя версия 5.3b - скачать и настроить программу    Скачать последнюю версию - 5.3b   Скачать с сайта   Скачать с Официального сайта Phoenixminer.org   Скачать с Mega   Скачать с Яндекс Диска   Версия для Linux   пароль архива: phoenix   Настройка и запуск   Читайте: Ethereum Майнинг с Нуля - Пошаговые Инструкции        Запустить майнинг ферму можно путем двойного щелчка мыши по файлу с расширением .bat. Например по 1_Ehereum-nanopool.bat. Не забудьте в этом фале изменить кошелек на свой.        Чтобы изменить кошелек, нажмите на 1_Ehereum-nanopool.bat правой кнопкой мыши и выберите пункт Изменить.        Нет кошелька? Читайте как открыть кошелек Ethereum за 5 минут   ","categories": ["programmy"],
+        "tags": ["Майнинг","PhoenixMiner"],
+        "url": "https://bitkoinblog.ru/programmy/phoenix-miner-last/",
+        "teaser": "https://bitkoinblog.ru/assets/images/thumbs/500x300.png"
       },]
