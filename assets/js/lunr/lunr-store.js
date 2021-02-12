@@ -2050,4 +2050,10 @@ var store = [{
         "tags": [],
         "url": "https://bitkoinblog.ru/novichku/tor-network/",
         "teaser": "https://bitkoinblog.ru/assets/images/thumbs/500x300.png"
+      },{
+        "title": "Реальный Курс ETH к Доллару, Рублю и Евро на Сегодня",
+        "excerpt":"Курс ETH к USD       Курс ETH к Рублю        Курс ETH к Евро        График Курса Ethereum       Изменения курса за неделю - каждые 24ч    Дата проведения торгов |&nbsp;&nbsp; Цена $ | Объем торгов | Изменения курса - 24ч    Конвертер ETH к Рублю       ETH курс: тренд         Твиттер    Твиты от ETH    Технический Анализ            Технический анализ ETHUSD от TradingView        &nbsp;  ","categories": ["rate"],
+        "tags": [],
+        "url": "https://bitkoinblog.ru/rate/eth/",
+        "teaser": "https://bitkoinblog.ru/assets/images/thumbs/500x300.png"
       },]
