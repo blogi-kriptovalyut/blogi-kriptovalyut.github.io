@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://bitkoinblog.ru/mining/ethereum-majning-s-nulya/</loc>
-<lastmod>2021-01-05T00:00:00+00:00</lastmod>
+<lastmod>2021-03-05T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://bitkoinblog.ru/mining/mining-akroma/</loc>
@@ -46,7 +46,7 @@
 </url>
 <url>
 <loc>https://bitkoinblog.ru/buy/novichku/kak-kupit-bitkoin-v-rossii/</loc>
-<lastmod>2020-12-28T00:00:00+00:00</lastmod>
+<lastmod>2021-03-05T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://bitkoinblog.ru/programmy/claymore-14.6/</loc>
@@ -1154,7 +1154,7 @@
 </url>
 <url>
 <loc>https://bitkoinblog.ru/rate/btc/</loc>
-<lastmod>2020-12-28T00:00:00+00:00</lastmod>
+<lastmod>2021-03-05T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://bitkoinblog.ru/novichku/smart-chain/</loc>
@@ -1162,7 +1162,7 @@
 </url>
 <url>
 <loc>https://bitkoinblog.ru/rate/etc/</loc>
-<lastmod>2020-12-28T00:00:00+00:00</lastmod>
+<lastmod>2021-03-05T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://bitkoinblog.ru/novichku/aml/</loc>
@@ -1361,6 +1361,10 @@
 <lastmod>2021-03-03T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>https://bitkoinblog.ru/buy/eth/</loc>
+<lastmod>2021-03-05T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://bitkoinblog.ru/about/</loc>
 <lastmod>2020-12-29T16:42:38+00:00</lastmod>
 </url>
@@ -1532,6 +1536,9 @@
 </url>
 <url>
 <loc>https://bitkoinblog.ru/page17/</loc>
+</url>
+<url>
+<loc>https://bitkoinblog.ru/page18/</loc>
 </url>
 <url>
 <loc>https://bitkoinblog.ru/mining/</loc>
