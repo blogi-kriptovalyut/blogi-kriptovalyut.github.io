@@ -2310,7 +2310,8 @@ search.addWidget(
 );
 
 // Starting the search
-search.start();
+let lazybuttonsearch = document.querySelector('.search__toggle');
+lazybuttonsearch.addEventListener('click', () => search.start());
 </script>
 
 

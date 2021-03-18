@@ -258,15 +258,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        
 
   
-    <article class=" grid-item post">
-      <h2><a href="/programmy/nicehash-miner/">Скачать и настроить NiceHash Miner (3.0.5.6)</a></h2>
-        <div class="flex__meta">
-<p><em>NiceHash Miner 3.0.5.6 - последняя версия.  Скачать и настроить программу</em>
-<img srcset="/assets/images/pic/mobile/nicehash.webp 323w,              /assets/images/pic/webp/nicehash.webp 517w,              /assets/images/pic/large/nicehash.webp 1920w" sizes="(max-width: 720px) 50px, 			(max-width: 721px) 1920px, 			(max-width: 1920px) 400px,             517px" src="/assets/images/pic/jpeg/nicehash.jpeg" alt="Найсхеш майнер" loading="lazy" decoding="async"></p>
-</div>
-      <div><a href="/programmy/nicehash-miner/" class="btn btn-habr">Читать дальше →</a></div>
-    </article>
-	  
 
   
 
@@ -1593,7 +1584,8 @@ search.addWidget(
 );
 
 // Starting the search
-search.start();
+let lazybuttonsearch = document.querySelector('.search__toggle');
+lazybuttonsearch.addEventListener('click', () => search.start());
 </script>
 
 
