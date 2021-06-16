@@ -45,7 +45,7 @@
 
 
 
-  <meta property="article:modified_time" content="2021-01-05T00:00:00+00:00">
+  <meta property="article:modified_time" content="2021-06-16T00:00:00+00:00">
 
 
 
@@ -354,7 +354,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
     <meta itemprop="headline" content="Seed Фраза: Что это, Примеры, Список Слов [2021]">
     <meta itemprop="description" content="Мнемоническая фраза представляет собой набор из 12-24 слова и используются для восстановления доступа к кошельку криптовалюты.">
     <meta itemprop="datePublished" content="October 20, 2020">
-    <meta itemprop="dateModified" content="January 05, 2021"> 
+    <meta itemprop="dateModified" content="June 16, 2021"> 
 	
     <div class="page__inner-wrap">
       
@@ -384,6 +384,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
               <ul class="toc__menu">
   <li><a href="#%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BB%D0%B8-%D0%B2%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-%D0%B5%D1%81%D0%BB%D0%B8-%D1%8F-%D0%BF%D0%BE%D1%82%D0%B5%D1%80%D1%8F%D1%8E-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF">Можно ли восстановить, если я потеряю доступ?</a></li>
   <li><a href="#seed-%D1%84%D1%80%D0%B0%D0%B7%D0%B0-%D0%B8-%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9-%D0%BA%D0%BB%D1%8E%D1%87">SEED-фраза и закрытый ключ</a></li>
+  <li><a href="#%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-seed-%D1%84%D1%80%D0%B0%D0%B7%D0%B0-%D0%B8%D0%BB%D0%B8-%D0%BC%D0%BD%D0%B5%D0%BC%D0%BE%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%84%D1%80%D0%B0%D0%B7%D0%B0">Как работает SEED фраза или мнемотическая фраза?</a></li>
   <li><a href="#%D0%BD%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BA%D0%B8-seed-%D1%84%D1%80%D0%B0%D0%B7">Недостатки Seed-фраз</a></li>
 </ul>
 
@@ -392,6 +393,19 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
         
         <p><em>Мнемоническая фраза представляет собой набор из 12-24 слова и используются для восстановления доступа к кошельку криптовалюты.</em>
 <img src="/assets/images/pic/crypto_39.jpg" alt="криптовалюта" loading="lazy" decoding="async"></p>
+
+<!-- Coinzilla Banner 300x250 -->
+<script async="" src="https://coinzillatag.com/lib/display.js"></script>
+
+<div class="coinzilla" data-zone="C-965e562bc620a6963"></div>
+<script>
+    window.coinzilla_display = window.coinzilla_display || [];
+    var c_display_preferences = {};
+    c_display_preferences.zone = "965e562bc620a6963";
+    c_display_preferences.width = "300";
+    c_display_preferences.height = "250";
+    coinzilla_display.push(c_display_preferences);
+</script>
 
 <p><dfn>SEED-фраза</dfn>, SEED-фраза, мнемонический код, секретная фраза  - это набор слов, которые можно использовать для доступа к вашему кошельку с криптовалютой. Другие названия для этого понятия включают «фраза восстановления» и «резервная фраза». Иногда люди используют это как синоним <a href="/novichku/private-key/">«закрытого ключа»</a>, хотя это не совсем правильно.</p>
 
@@ -438,6 +452,19 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 <p>Большинство ведущих кошельков позволяют пользователю вернуть свои средства с помощью seed-фразы, если они правильно ее записали.</p>
 
+<h2 id="как-работает-seed-фраза-или-мнемотическая-фраза">Как работает SEED фраза или мнемотическая фраза?</h2>
+
+<p>SEED фраза имеет довольно простую операцию, которую мы можем разделить на серию фаз или моментов. Таким образом, механизм будет работать следующим образом:</p>
+
+<ul>
+  <li>Во-первых, разработчик кошелька реализует функциональность SEED фразы в соответствии со стандартом BIP-39 или его производной. BIP-39 направлен на то, чтобы предложить нам метод генерации приватных ключей с использованием ряда мнемонических слов, которые помогают поддерживать наш кошелек и в то же время обеспечивают создание безопасных приватных и открытых ключей.</li>
+  <li>BIP-39 выбирает слова наугад (обычно из английского языка, хотя они могут быть из другого языка) и создает из них длинное предложение (обычно от 12 до 24 слов). Здесь чем больше количество слов, тем выше энтропия и безопасность получаемого предложения.</li>
+</ul>
+
+<p><a href="/assets/images/novichku/seed/bip-39.webp" class="image-popup"> <img src="/assets/images/novichku/seed/bip-39.webp" alt="BIP-39" loading="lazy" decoding="async"> </a><span class="img-tit nev">bip-39</span></p>
+
+<p>Конечно, эти слова выбраны из длинных словарей с хорошей энтропией (случайностью), так что гарантируется наилучшая возможная безопасность.</p>
+
 <h2 id="недостатки-seed-фраз">Недостатки Seed-фраз</h2>
 
 <p>У мнемонических фраз есть некоторые проблемы. СИД-фразы не только громоздки, но и имеют проблемы с безопасностью.</p>
@@ -483,7 +510,7 @@ button:focus,a:focus{outline:thin dotted #6f777d;outline:5px auto #6f777d;outlin
 
 
         
-		  <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-01-05T00:00:00+00:00">05.01.2021</time></p>
+		  <p class="page__date"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated: <time datetime="2021-06-16T00:00:00+00:00">16.06.2021</time></p>
         
       </footer>
 
